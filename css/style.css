@@ -265,3 +265,60 @@ body{
      font-size: 25px;
       line-height: 37px;
  }
+
+.special-offers{
+  padding-top: 350px;
+}
+.special-info{
+    text-align: center;
+    width: 855px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.special-section__text{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #A9A9A9;
+}
+.special-section__title{
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 78px;
+    text-align: center;
+    color: #172F53;
+    margin-top: 0;
+}
+.cards-wrapper{
+    display: flex;
+    align-items: center;
+}
+.card{
+    width: 350px;
+    background: #F6F8FF;
+    border-radius: 20px;
+    padding: 30px;    
+}
+.card:not(:last-child){
+    margin-right: 65px;
+}
+.card-title::after{
+    content: "";
+    width: 120px;
+    display: block;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-title__local::after{
+  background-image: url(../images/Group\ 37.svg);
+}
+.card-title__air::after{
+    background-image: url(../images/Group\ 36.svg);
+  }
+  .card-title__speed::after{
+    background-image: url(../images/Group\ 38.svg);
+  }
+  .card-title__racers::after{
+    background-image: url(../images/Group\ 39.svg);
+  }
