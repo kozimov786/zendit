@@ -456,9 +456,14 @@ b{
     display: flex;
     align-items: center;
     margin: auto;
+    
+}
+.companies img{
+    transition: ease-in-out 1.9s;
 }
 .companies img:hover{
-    opacity: 0.3;
+    background-color: honeydew;
+    transform: rotate(360deg);
 }
 .company-link:not(:last-child){
   margin-right: 88px;
