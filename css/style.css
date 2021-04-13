@@ -141,8 +141,8 @@ body{
     background-repeat: no-repeat;
     position: absolute;
     background-image: url("../images/Vector.png");
-    width: 12px;
-    height: 6px;
+    width: 14px;
+    height: 8px;
     background-size: contain;
     top: 12px;
     right: -20px;
@@ -153,12 +153,15 @@ body{
     position: absolute;
     top: 10px;
     right: -18px;
-    width: 12px;
-    height: 6px;
+    width: 14px;
+    height: 8px;
     background-image: url(../images/Vector.png);
     background-size: contain;
     transform: rotate(180deg);
     background-repeat: no-repeat;
+  }
+  .sitenav-item:hover .sitenav-link{
+    color: #38918c;
   }
 .sitenav-link-wrapper{
     font-weight: normal;
@@ -170,6 +173,9 @@ body{
     text-decoration: none;
     color:#172F53;
 }
+.sign-link:hover{
+    color: #38918c;
+}
 .register-link{
     padding: 10px 25px;
     text-decoration: none;
@@ -178,7 +184,10 @@ body{
     border-radius: 5px;
     margin-left: 50px;
 }
-
+.register-link:hover{
+    color:#fff;
+    background-color:#172F53 ;
+}
 /* HERO */
 .hero-section{
   display: flex;
@@ -265,7 +274,10 @@ body{
      font-size: 25px;
       line-height: 37px;
  }
-
+.btn:hover{
+    background-color:#172F53;
+     color: #fff;
+}
 .special-offers{
   padding-top: 350px;
 }
@@ -299,7 +311,12 @@ body{
     background: #F6F8FF;
     border-radius: 20px;
     padding: 30px;
-    padding-bottom: 20px;    
+    padding-bottom: 20px;
+    transition: ease 0.3s;    
+}
+.card:hover{
+    transform: translatey(-10px);
+    box-shadow: 8px 8px 100px 10px rgba(0, 0, 0, 0.1);
 }
 .card:not(:last-child){
     margin-right: 65px;
@@ -347,6 +364,9 @@ b{
 }
 .card-active{
     background-color: #5F5FFE;
+    box-shadow: 8px 8px 100px 10px rgba(0, 0, 0, 0.1);
+  }
+  .card-active:hover{
     box-shadow: 8px 8px 100px 10px rgba(0, 0, 0, 0.1);
   }
   .card-active .card-title{
@@ -437,6 +457,9 @@ b{
     align-items: center;
     margin: auto;
 }
+.companies img:hover{
+    opacity: 0.3;
+}
 .company-link:not(:last-child){
   margin-right: 88px;
 }
@@ -468,6 +491,10 @@ b{
     font-weight: 500;
     font-size: 25px;
     line-height: 37px;
+}
+.site-footer__link:hover{
+    text-decoration:underline;
+    color: gold;
 }
 .site-footer__list:nth-child(3){
     width: 366px;
