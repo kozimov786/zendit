@@ -67,6 +67,7 @@ body{
 /* HEADER */
 
 .site-header{
+    max-width: 1920px;
     background-color:#F6F8FF;    
     padding-top: 62px;
     height: 1000px;
@@ -473,6 +474,7 @@ b{
 
 .site-footer{
     background-color: #172F53;
+    max-width: 1920px;
     height: 815px;
     background-image: url(../images/site-footer-bg.png);
     background-repeat: no-repeat;
