@@ -292,12 +292,14 @@ body{
 .cards-wrapper{
     display: flex;
     align-items: center;
+    margin-bottom: 173px;
 }
 .card{
     width: 350px;
     background: #F6F8FF;
     border-radius: 20px;
-    padding: 30px;    
+    padding: 30px;
+    padding-bottom: 20px;    
 }
 .card:not(:last-child){
     margin-right: 65px;
@@ -307,18 +309,169 @@ body{
     width: 120px;
     display: block;
     height: 120px;
+    margin-top: 34px;
+    margin-bottom: 39px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .card-title__local::after{
-  background-image: url(../images/Group\ 37.svg);
+  background-image: url(../images/present-box.svg);
 }
 .card-title__air::after{
-    background-image: url(../images/Group\ 36.svg);
+    background-image: url(../images/airplanings.svg);
   }
   .card-title__speed::after{
-    background-image: url(../images/Group\ 38.svg);
+    background-image: url(../images/speedrunner.svg);
   }
   .card-title__racers::after{
-    background-image: url(../images/Group\ 39.svg);
+    background-image: url(../images/local-racers.svg);
   }
+.card-title{
+    font-weight: bold;
+    margin: 0;
+    font-size: 32px;
+    line-height: 48px;
+    color: #172F53;
+}
+.card-text{
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #A9A9A9;
+}
+b{
+    color: #172F53;
+    margin-left: 10px;
+}
+.card-active{
+    background-color: #5F5FFE;
+    box-shadow: 8px 8px 100px 10px rgba(0, 0, 0, 0.1);
+  }
+  .card-active .card-title{
+      color: #fff;
+  }
+  .card-active .card-text{
+    color: #fff;
+}
+.card-active b{
+    color: #fff;
+}
+
+/* SALE SECTION */
+.sale-section{
+    display: flex;
+    align-items: center;
+    margin-bottom: 178px;
+}
+.sale-info{
+    width: 950px;
+    margin-right: 113px;
+}
+.sale-info__title{
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 78px;
+    color: #172F53;
+    margin: 0;
+    margin-bottom: 45px;
+}
+.sale-info__text{
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+    color: #7D7D7D;
+    margin-bottom: 65px;
+}
+.sale-btn{
+    text-decoration: none;
+    position: relative;
+}
+.sale-btn::after{
+    content: "";
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 38px;
+    right: 50px;
+    background-size: contain;
+    background-position: center center;
+    background-image: url("../images/Vector\ \(1\).png");
+}
+
+/* PARTNERSHIP */
+.partnership-section{
+    margin-bottom: 185px;
+}
+.partnership-info{
+    width: 697px;
+    margin: auto;
+    text-align: center;
+}
+.partnership-text{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: #A9A9A9;
+    margin-bottom: 10px;
+}
+.partnership-section__title{
+    font-weight: bold;
+    font-size: 52px;
+    margin: 0;
+    margin-bottom: 94px;
+    line-height: 78px;
+    text-align: center;
+    color: #172F53;
+}
+.companies{
+    width: 1489px;
+    background: #FFFFFF;
+    box-shadow: 8px 8px 100px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 105px 96px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.company-link:not(:last-child){
+  margin-right: 88px;
+}
+
+/* FOOTER */
+
+.site-footer{
+    background-color: #172F53;
+    height: 815px;
+    background-image: url(../images/site-footer-bg.png);
+    background-repeat: no-repeat;
+    background-position:100% 100%;
+    padding-top: 95px;
+}
+.site-footer__container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.site-footer__title{
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.site-footer__link{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+}
+.site-footer__list:nth-child(3){
+    width: 366px;
+}
+.site-footer__item{
+    margin-bottom: 30px;
+}
